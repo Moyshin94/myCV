@@ -10,21 +10,35 @@ body {
   font-family: "Comforter", cursive;
   font-family: "Gulzar", serif;
 }
-li {
-  list-style: none;
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+h4 {
+  text-align: left;
+  font-size: 18px;
 }
 
-div,
-h1,
-h2,
-h3,
 p {
-  outline: 2px solid red;
+  font-size: 20px;
+}
+li {
+  list-style: none;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
+  margin-bottom: 40px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
