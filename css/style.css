@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+li {
+  list-style: none;
+}
+
+div,
+h1,
+h2,
+h3,
+p {
+  outline: 2px solid red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.left-side {
+}
+
+.right-side {
+}
+
+.images {
+}
+.img-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.main-photo {
+}
+.author {
+}
+.about-my {
+}
+.contact {
+}
+.experience {
+}
+.education {
+}
+.skills {
+}
