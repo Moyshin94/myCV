@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Gulzar&display=swap");
+
 body {
+  font-family: "Comforter", cursive;
+  font-family: "Gulzar", serif;
 }
 li {
   list-style: none;
@@ -22,17 +26,27 @@ p {
   margin: 0 auto;
   max-width: 1200px;
 
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* display: flex; */
+
+  /* justify-content: flex-start;
   align-items: start;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: center; */
 }
 
 .left-side {
+  max-width: 600px;
+  background-color: #1a242f;
+  color: #e7ecf1;
 }
 
 .right-side {
+  /* max-width: 600px; */
+  background-color: #d7d8c0;
+  color: #1f2831;
 }
 
 .images {
