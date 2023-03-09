@@ -11,20 +11,24 @@ body {
   font-family: "Gulzar", serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
 h1 {
   font-size: 70px;
-  text-align: center;
 }
 h2 {
   font-size: 50px;
-  text-align: center;
 }
 h3 {
-  text-align: center;
   font-size: 40px;
+  padding: 20px 0px;
 }
 h4 {
-  text-align: left;
   font-size: 30px;
 }
 
@@ -100,8 +104,4 @@ li {
 }
 
 .li-tell {
-}
-
-.p-exper {
-  padding: 50px 0px;
 }
