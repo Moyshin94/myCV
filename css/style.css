@@ -42,7 +42,7 @@ li {
 
 .wrapper {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   margin-bottom: 40px;
   /* font-size: 0; */
 
@@ -59,7 +59,7 @@ li {
 
 @media (max-width: 600px) {
   .wrapper {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr;
   }
 }
@@ -72,7 +72,7 @@ li {
 }
 
 .right-side {
-  max-width: 600px;
+  width: 600px;
   background-color: #d7d8c0;
   color: #1f2831;
   padding: 30px;
