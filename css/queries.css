@@ -52,11 +52,14 @@
 /* 528 */
 @media (max-width: 33em) {
   html {
-    font-size: 30%;
+    font-size: 35%;
   }
 }
 /* 390px */
 @media (max-width: 24.375em) {
+  html {
+    font-size: 55%;
+  }
   .wrapper {
     grid-template-columns: 1fr;
   }
