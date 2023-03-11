@@ -1,6 +1,71 @@
-@media (max-width: 600px) {
+/* 1010px */
+@media (max-width: 63em) {
+  .right-side h3 {
+    padding: 0.8rem 0rem 4.8rem 0rem;
+  }
+  .about-my p {
+    font-size: 2.4rem;
+  }
+}
+/* 975px */
+@media (max-width: 60.94em) {
+  .right-side h3 {
+    padding: 0.4rem 0rem 0.4rem 0rem;
+  }
+  .about-my p {
+    font-size: 2.4rem;
+  }
+}
+
+/* 912px */
+
+@media (max-width: 57em) {
+  h1 {
+    font-size: 10rem;
+  }
+  .right-side p {
+    padding: 0;
+  }
+  .about-my p {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    padding: 0.2rem 0rem 0.2rem 0rem;
+  }
+}
+
+/* 813px */
+@media (max-width: 50.81em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 650px */
+@media (max-width: 40.6em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/* 528 */
+@media (max-width: 33em) {
+  html {
+    font-size: 30%;
+  }
+}
+/* 390px */
+@media (max-width: 24.375em) {
   .wrapper {
-    /* display: grid; */
     grid-template-columns: 1fr;
   }
 }
+
+/* rem and em not depend on html font-size in media
+ queries Instead, 1 rem = 1 em = 16px 
+ rem - rut FZ
+ rem dont use in mediaquaries beckose of bags
+ we use em
+ pixels into em 
+ 1010 / 16 = 63.125*/
