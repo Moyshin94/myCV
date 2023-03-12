@@ -56,9 +56,21 @@
   }
 }
 /* 390px */
-@media (max-width: 24.375em) {
+@media (max-width: 26.25em) {
   html {
     font-size: 55%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 23em) {
+  html {
+    font-size: 50%;
+  }
+  h1 {
+    font-size: 8rem;
   }
   .wrapper {
     grid-template-columns: 1fr;
